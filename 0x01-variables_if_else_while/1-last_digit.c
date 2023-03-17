@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
-  *
   * main - checks whether the last digit of a random number is less than 6 , greater than 5 or is zero.
   * RETURN: Always zero if success.
   */
