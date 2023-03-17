@@ -3,8 +3,9 @@
 #include <time.h>
 
 /**
- * main - Checks if the number generated is positive or negative integer
- * RETURN: Always a Zero
+ * main - Checks if random number generated is positive,negative or a zero
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
