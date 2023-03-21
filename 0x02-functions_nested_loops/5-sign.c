@@ -3,7 +3,7 @@
 /**
      * print_sign - prints the sign of a number
      * @c: the character
-     * RETURN: 1 if 
+     * RETURN: 1 if
      */
 int print_sign(int n)
 {
