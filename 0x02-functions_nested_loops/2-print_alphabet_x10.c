@@ -1,29 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - prints alpha 10 times
  */
 void print_alphabet_x10(void)
 {
 	char i;
+	int num;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(i);
-	}
-}
-int main(void)
-{
-	 int a;
-	 
-	 for (a = 0; a <= 9; a++)
-	 {
 
-		 print_alphabet_x10();
-		 printf("\n");
-	 }
-	 putchar('\n');
-	 return (0);
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+	}
 }
