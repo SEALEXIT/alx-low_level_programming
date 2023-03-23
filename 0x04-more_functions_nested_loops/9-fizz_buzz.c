@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+  * main - prints fizz buzz
+  * Return: Always zero
+  */
+
 int main(void)
 {
 	int i;
@@ -17,8 +22,6 @@ int main(void)
 		if (i != 100)
 			printf(" ");
 	}
-	
-	
 	printf("\n");
 	return (0);
 }
