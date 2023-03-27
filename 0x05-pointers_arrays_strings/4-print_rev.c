@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
   * print_rev - Prints string in reverse
@@ -8,9 +9,19 @@
 
 void print_rev(char *s)
 {
-	if (*s != '\0')
+	int len = 0;
+	int i;
+
+	while (*s != '\0')
 	{
-		print_rev(s + 1);
-		_putchar(*s);
+		len++;
+		s++;
 	}
+
+	for (i = len; i > 0; i--)
+	{
+		_putchar(*s);
+		s--;
+	}
+	_putchar('\n');
 }
