@@ -13,7 +13,7 @@ char *string_toupper(char *st)
 
 	for (i = 0; i < sizeof(st); i++)
 	{
-		return (toupper(st[i]));
+		return (strupr(st[i]));
 	}
 
 }
