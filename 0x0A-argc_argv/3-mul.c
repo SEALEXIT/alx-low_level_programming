@@ -10,9 +10,10 @@
 
 int main(int argc, char *argv[])
 {
-	int i, ans;
+	int i, ans, count;
 
 	ans = 1;
+	count = 0;
 
 	if  (argc < 3)
 	{
@@ -23,11 +24,16 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		ans *= atoi(argv[i]);
-	}
-	printf("%d\n", ans);
+		if (atoi(argv[i]) <= 0)
+			count++;
+		else
+			ans *= atoi(argv[i]);
 	}
 
+	if (count != 0)
+		printf("Error\n");
+	else
+		printf("%d\n", ans);
+	}
 	return (0);
 }
-
