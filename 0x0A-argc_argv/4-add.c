@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		else
 			sum += num;
 	}
-	if ( count == 0)
+	if (count == 0)
 	printf("%d\n", sum);
 	else
 		printf("Error\n");
