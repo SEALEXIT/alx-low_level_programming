@@ -11,7 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int i, sum, num;
+	int count, i, sum, num;
+
+	count = 0;
 
 	if (argc < 2)
 	{
@@ -25,11 +27,14 @@ int main(int argc, char *argv[])
 		num = atoi(argv[i]);
 
 		if (num == 0)
-			printf("Error\n");
+			count++;
 		else
 			sum += num;
 	}
+	if ( count == 0)
 	printf("%d\n", sum);
+	else
+		printf("Error\n");
 	}
 
 
