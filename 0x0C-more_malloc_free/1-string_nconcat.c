@@ -10,14 +10,14 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char ss1[10000], ss2[10000];
+	char ss1[1000], ss2[1000];
 	char *string;
 	int i, len;
 
 	strcpy(ss1, s1);
 	strcpy(ss2, s2);
 
-	if (s1 == NULL) 
+	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
