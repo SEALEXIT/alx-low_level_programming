@@ -7,35 +7,10 @@
   */
 void print_dog(struct dog *d)
 {
-	struct dog *dd;
-
-	dd = d;
-	
-
-	if (d == NULL)
+	if (d != NULL)
 	{
-
-		printf(" ");
-	
-	 if (d->name == NULL)
-	{
-		printf("Name: (nil)\n");
-	}
-	if (d->age == 0)
-	{
-		printf("Age: (nil)\n");
-	}
-	if ((*d).owner == NULL)
-	{
-		printf("Owner: (nil)\n");
-	}
-	}
-	else
-	{
-		dd = (struct dog *)malloc(sizeof(struct dog));
-
-	printf("Name: %s\n", (*dd).name);
-	printf("Age: %f\n", dd->age);
-	printf("Owner: %s\n", (*dd).owner);
+		printf("Name: %s\n", (d->name) ? (*d).name : "(nil)");
+		printf("Age: %f\n", (d->age) ? (*d).age : 0);
+		printf("Owner: %s\n", (d->owner) ? d->owner : "(nil)");
 	}
 }
