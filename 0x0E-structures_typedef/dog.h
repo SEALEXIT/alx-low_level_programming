@@ -7,6 +7,7 @@
   * @name: name of the dog
   * @age: age of the dog
   * @owner: Owner of the dog
+  *
   * Description: Longer Description
   * dog_t - typedef of dog
   */
