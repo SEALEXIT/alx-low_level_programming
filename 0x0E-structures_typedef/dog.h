@@ -3,10 +3,12 @@
 #include <string.h>
 
 /**
-  * dog - structure name
+  * struct dog - structure name
   * @name: name of the dog
   * @age: age of the dog
   * @owner: Owner of the dog
+  * Description: Longer Description
+  * dog_t - typedef of dog
   */
 
 typedef struct dog
