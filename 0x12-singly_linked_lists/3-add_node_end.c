@@ -25,6 +25,6 @@ list_t *add_node_end(list_t **head, const char *str)
 		printf("[%u] %s\n", new->len, (*new).str);
 		new = new->next;
 	}
-	return (*head);
+	return (new);
 }
 
