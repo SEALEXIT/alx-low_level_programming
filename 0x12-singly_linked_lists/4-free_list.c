@@ -2,7 +2,7 @@
 
 /**
   * free_list - free memory list
-  * @head: The pointer 
+  * @head: The pointer
   * Return: Nothing
   */
 
@@ -10,7 +10,7 @@ void free_list(list_t *head)
 {
 	list_t *point;
 
-	while(head != NULL)
+	while (head)
 	{
 		point = head->next;
 		free((*head).str);
