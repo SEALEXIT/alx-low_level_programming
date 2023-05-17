@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-  * find_listintt_loop - finds loop in listint_t
+  * find_listint_loop - finds loop in listint_t
   * @head: pointer to the first node
   *
   * Return: Something
