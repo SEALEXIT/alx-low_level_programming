@@ -1,1 +1,1 @@
-##Bit Manipulation AND(&) OR(|) XOR(^) REVERT(~)
+## Bit Manipulation AND(&) OR(|) XOR(^) REVERT(~)
